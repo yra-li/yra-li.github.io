@@ -1,0 +1,169 @@
+body{
+    background-color:beige;
+    background-image: url('oriental.png');
+    font-family: 'Open Sans', sans-serif;}
+
+nav{
+        width: 100%;
+        height:500px;
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Grand_Bazaar_04.jpg/1920px-Grand_Bazaar_04.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        background-size: 100%;
+        text-align: center;
+        display:flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+nav a{background-color:black;
+        color:white;
+        padding: 10px;
+        display: inline-block;
+    }
+nav a:hover {background-color: white;
+    color:goldenrod;}
+
+footer{
+    width: 100%;
+    height:200px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Grand_Bazaar_04.jpg/1920px-Grand_Bazaar_04.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    text-align: center;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    color:white;
+}
+footer a, footer p{ background-color:black;
+    color:white;
+    height:20px;
+    padding: 10px;
+    display: inline-block;}
+
+@media screen and (max-width: 1000px){
+    nav{height:150px;
+    background-position:top center;
+    }
+    footer{height:100px;}
+    }
+
+
+
+#contents{
+width:700px;
+margin:auto;
+padding-bottom: 5px;
+background-color: white;
+}
+
+#contents h2{
+    padding:10px 0;
+    width: 100%;
+    color:gray;
+}
+#contents ol{
+    display:flex;
+    flex-flow: column wrap;
+}
+#contents li{
+    font-family: 'Josefin Sans', sans-serif';
+    font-size: 24px;
+    font-weight: bold;
+    color: goldenrod;
+    padding: 10px;
+    margin: 5px;
+    border-bottom: 1px solid #eee;
+}
+#contents li:hover{
+    background-color:#eee;
+}
+
+@media screen and (max-width: 800px){
+    #contents{
+        width:100%;
+    }
+}
+
+h1{
+    color: #520001;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3em;
+    text-align: center;
+}
+h2{
+    color:#7E0002;
+    border:solid rgba(255,255, 255, 0.5) 30% 0px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    border-style: none;
+    margin-top: 50px;
+    margin-bottom: -10px;
+    clear:both;
+}
+h5{
+    text-align: center;
+}
+hr{
+    border: 0px;
+    background-image: url('https://i.pinimg.com/originals/e9/81/5b/e9815b482d10e65c5599cc3fce6fd5b6.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px;
+    height:50px;
+
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+main{
+padding: 0% 5%;
+margin: 0% 5%;
+}
+@media screen and (max-width: 1000px){
+    main{
+        padding: 0% 0%;
+        margin: 0% 3%;
+        }
+}
+main img{
+    max-width: 800px;
+    max-height: 500px;
+    margin:auto;
+display:block;}
+p img {
+    float:left;
+    margin: 10px;
+    margin-right: 25px;
+    max-width:30%;
+}
+@media screen and (max-width: 1200px){
+    p img {
+        float:none;
+        margin:auto;
+        max-width: 90%;
+    }
+}
+@media screen and (max-width: 1000px){
+
+    main img {
+        max-width: 100%;
+    }
+
+}
+a {
+    color: darkred;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    color:red;
+}
+#topofpage, #bottomofpage {
+    opacity: 0; 
+    height:0px;
+}
+
